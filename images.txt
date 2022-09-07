@@ -1,2 +1,2 @@
 https://via.placeholder.com/640/FF0000/FFFFFF?text=This+image+was+loaded+from+index
-https://via.placeholder.com/640/00FF00/000000?text=This+image+was+loaded+from+react
+https://via.placeholder.com/640/00FF00/000000?text=This+image+was+loaded+by+react
