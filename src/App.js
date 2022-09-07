@@ -11,6 +11,10 @@ function App() {
           property="og:image"
           content="https://via.placeholder.com/640/00FF00/000000?text=This+image+was+loaded+from+react"
         />
+        <meta
+          name="description"
+          content="This description was rendered by React."
+        />
       </Helmet>
 
       <header className="App-header">
