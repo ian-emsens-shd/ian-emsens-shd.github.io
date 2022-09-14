@@ -1,7 +1,10 @@
 import "./App.css";
 import { Helmet } from "react-helmet";
+import { useTranslation } from "react-i18next";
 
 function App() {
+  const { t } = useTranslation();
+
   const url =
     "https://via.placeholder.com/640/00FF00/000000?text=This+image+was+loaded+by+react";
 
@@ -18,7 +21,9 @@ function App() {
       </Helmet>
 
       <header className="App-header">
-        <p>React</p>
+        <p>{t("key-with-a-url")}</p>
+        
+        <p dangerouslySetInnerHTML={{ __html: t("key-with-a-url") }} />
 
         <img src={url} alt="This was loaded by React"></img>
       </header>
