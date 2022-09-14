@@ -11,7 +11,8 @@ i18n
   .init({resources: {
       en: {
         translation: {
-          "key-with-a-url": "Click <a href=\"/\">here</a>."
+          "key-with-a-url": "Click <a href=\"/\">here</a>.",
+          "key-with-an-external-url": "Click <a href=\"https://github.com/ian-emsens-shd/ian-emsens-shd.github.io\">here</a> to view the source code."
         }
       }
     },

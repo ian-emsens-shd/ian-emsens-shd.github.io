@@ -21,9 +21,19 @@ function App() {
       </Helmet>
 
       <header className="App-header">
-        <p>{t("key-with-a-url")}</p>
-        
-        <p dangerouslySetInnerHTML={{ __html: t("key-with-a-url") }} />
+        <p>
+          {t("key-with-a-url")}
+          <br />
+          {t("key-with-an-external-url")}
+        </p>
+
+        <p
+          dangerouslySetInnerHTML={{
+            __html: `${t("key-with-a-url")}<br/>${t(
+              "key-with-an-external-url"
+            )}`,
+          }}
+        />
 
         <img src={url} alt="This was loaded by React"></img>
       </header>
