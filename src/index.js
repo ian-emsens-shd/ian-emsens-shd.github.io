@@ -11,7 +11,7 @@ i18n
   .init({resources: {
       en: {
         translation: {
-          "key-with-a-url": "Click <a href=\"/\">here</>."
+          "key-with-a-url": "Click <a href=\"/\">here</a>."
         }
       }
     },
